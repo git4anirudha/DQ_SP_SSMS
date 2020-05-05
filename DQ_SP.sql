@@ -789,7 +789,7 @@ END;  -- end of While Loop for 'TestScenario' list
 
 /* ----------------------------- End of Code---------------------------------  */
 
-SELECT [HEALTHPLAN]
+/*SELECT [HEALTHPLAN]
       ,[TABLENAME]
 	  ,[TEST_SCENARIO]
       ,[COLUMNNAME]
@@ -798,6 +798,6 @@ SELECT [HEALTHPLAN]
       ,[STATUS]
       ,[STATUS_DESC]
       ,[DQ_REMARKS]
- FROM [dbo].[SP_Utility_DQ_OUTPUT];
+ FROM [dbo].[SP_Utility_DQ_OUTPUT]; */
 
 END
